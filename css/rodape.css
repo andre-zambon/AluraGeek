@@ -5,16 +5,13 @@
     padding: 1em 0;
 }
 
-
 .rodape__lista {
     list-style: none;
     text-align: center;
-
 }
 
 .rodape__lista-item {
     margin: 1em 0;
-
 }
 
 .formulario__titulo-rodape {
@@ -23,8 +20,6 @@
     align-self: flex-start;
     margin-bottom: 1em
 }
-
-
 
 .container__logo-links {
     text-align: center;
@@ -39,7 +34,6 @@
     flex-direction: column;
     padding: 1em 1em;
     align-items: flex-start;
-
 }
 
 .formulario__container {
@@ -51,7 +45,6 @@
     border-radius: 6px;
     border-bottom: 1px solid var(--cor-texto-label);
     width: 100%;
-
 }
 
 .formulario__nome {
@@ -84,7 +77,6 @@
     font-weight: 500;
     line-height: 19px;
     padding: 2em 0;
-
 }
 
 .link-rodape {

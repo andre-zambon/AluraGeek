@@ -55,12 +55,8 @@
     }
 
     .produtos__lista-cadastro {
-      
         grid-template-columns: repeat(4, auto);
-        
     }
-    
-      
     
 } 
 
@@ -71,9 +67,7 @@
     }
 
     .produtos__lista-cadastro {
-      
         grid-template-columns: repeat(6, auto);
-        
     }
 }
 

@@ -18,23 +18,18 @@
             <input type="text" name="busca" class="cabecalho__busca" placeholder="O que deseja encontrar?">
             <button class="busca__botao" onclick="buscar()"></button>
         </div>
-
         <a href="produtos.html" class="cabecalho__botao-login cabecalho__botao-MenuAdm">Menu administrador</a>
         <button class="cabecalho__botao-buscar" onclick="buscar()"><img src="img/Icone.svg"></button>
-  
     </header>
 
 
 	<main class="cadastro__container">
         <h2 class="formulario__titulo formulario__titulo--tamanho">Adcionar novo produto</h2>
-			
         <form class="cadastro__formulario">
-            
             <div class="formulario__container">
                 <label class="formulario__nome" for="fotoProduto">URL da imagem</label>	
                 <input type="file" name="foto" id="fotoProduto" required data-foto >
             </div>
-            
             <div class="lista-categorias formulario__container">
                 <label class="formulario__nome">Categoria</label>
                 <select name="categoria" id="categoriaProduto" data-categoria>
@@ -43,28 +38,23 @@
                     <option value="Diversos">Diversos</option>	
                 </select>
             </div>
-            
             <div class="formulario__container">
                 <label class="formulario__nome">Nome do produto</label>
                 <input type="text" name="nome" id="nomeProduto" required maxlength="20" class="campo-cadastro" data-nome>
             </div>
-            
             <div class="formulario__container">
                 <label class="formulario__nome">Preço do produto</label>
                 <input type="number" name="preco" id="precoProduto" required class="campo-cadastro campo-preco" data-preco>
             </div>
-            
             <div class="formulario__container">
                 <label class="formulario__nome">Descrição do produto</label>
                 <textarea name="descricao" id="decricaoProduto" class="campo-cadastro campo-descricao" required maxlength="150" data-descricao ></textarea>
             </div>	
-            
             <button class="botao-cadastro botao--padrao" onclick="adcionarProduto()">Adicionar produto</button>
         </form>
 	</main>
 	
-	 <footer>
-
+	<footer>
         <section class="container__rodape">
             <div class="container__logo-links">
                 <a href="index.html" class="rodape__link-logo"><img src="img/Logo.svg" class="rodape__logo" alt="Logomarca alurageek"></a>
@@ -91,8 +81,5 @@
             <p>Desenvolvido por André Zambon<br> 2021</p>
         </div>
     </footer>
-
-	
 </body>
-
 </html>
