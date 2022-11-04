@@ -1,0 +1,53 @@
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.formulario__titulo--centralizado {
+    align-self: center;
+}
+
+.login__email, .login__senha {
+    margin: 0.5em 0;
+    padding: 1em 0.5em;
+    width: 80%;
+    border-radius: 6px;
+    border-bottom: 1px solid var(--cor-texto-label);
+}
+
+.login__container {
+    background-color: var(--cor-background-cinza);
+    padding: 3em 0;
+}
+
+.login__botao {
+    width: 30%;
+    margin: 1em 0;
+    text-align: center;
+        
+}
+
+
+@media screen and (min-width: 768px) {
+    .login__container {
+        padding: 2em 0;
+    }
+    
+    .login__email, .login__senha {
+        width: 40%
+    }
+    
+    .login__botao {
+        width: 20%
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .login__container {
+        padding: 17em 0;
+    }
+}
+

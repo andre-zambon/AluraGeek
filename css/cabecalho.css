@@ -1,0 +1,69 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+    
+}
+
+.cabecalho__botao-login {
+    border: 1px solid var(--cor-botao-azul);
+    padding: 1em 3em;
+    color: var(--cor-botao-azul);
+    font-weight: 600;
+}
+
+.cabecalho__busca {
+    display: none;
+}
+
+.busca__container {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .cabecalho {
+        padding: 1em 4em;
+    }
+    
+    .busca__container {
+        background-color: var(--cor-background-cinza);
+        padding: 0.5em;
+        border-radius: 50px;
+        display: flex;
+        
+                
+    }
+    
+    .cabecalho__busca {
+        background-color: transparent;
+        padding-right: 3em;
+        display: block;
+            
+    }
+    
+    .busca__botao {
+        background-image: url(../img/Icone.svg);
+        background-repeat: no-repeat;
+        padding: 1em;
+        background-position: center;
+            
+            
+    }
+    
+    .cabecalho__botao-buscar {
+        display: none; 
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .cabecalho {
+        padding: 1em 10em;
+    }
+    
+}

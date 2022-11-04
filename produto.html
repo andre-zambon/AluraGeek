@@ -1,0 +1,115 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" type="text/css " href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body>
+
+   <header class="cabecalho">
+        <a href="index.html"><img src="img/Logo.svg" class="cabecalho__logo" alt="Logomarca da Alura Geek"></a>
+        <div class="busca__container">
+            <input type="text" name="busca" class="cabecalho__busca" placeholder="O que deseja encontrar?">
+            <button class="busca__botao" onclick="buscar()"></button>
+        </div>
+
+        <button class="cabecalho__botao-buscar" onclick="buscar()"><img src="img/Icone.svg"></button>
+  
+    </header>
+
+	<main>
+        
+        <section class="produto__container">
+            <img src="img/produto.svg" class="produto__foto-grande">
+       <div class="descricao__container">    
+            <h2 class="produto__nome produto__nome--tamanho">Produto XYZ</h2>
+            <p class="produto__preco produto__preco--margin">R$ 60,00</p>
+            <p class="produto__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+        </div>
+		</section>
+
+		<div class="lista__container">
+			<h3 class="produtos__titulo">Produtos similares</h3>
+			<ul class="produtos__lista">
+				<li class="produto">
+                    <img src="img/star5.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+				 <li class="produto">
+                    <img src="img/star2.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+                <li class="produto">
+                    <img src="img/star3.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+                <li class="produto">
+                    <img src="img/star4.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+                <li class="produto--desktop">
+                    <img src="img/diversos1.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+                <li class="produto--desktop">
+                    <img src="img/diversos2.svg" class="produto__foto">
+                    <p class="produto__nome">Produto XYZ</p>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="produto.html" class="produto__link">Ver Produto</a>
+                </li>
+			</ul>
+
+		</div>
+
+    </main>	
+	   <footer>
+
+        <section class="container__rodape">
+            <div class="container__logo-links">
+                <a href="index.html" class="rodape__link-logo"><img src="img/Logo.svg" class="rodape__logo" alt="Logomarca alurageek"></a>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Quem somos nós</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Politica de privacidade</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Programa de fidelidade</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Nossas lojas</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Quero ser franqueado</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="rodape__formulario" method="post">
+                <p class="formulario__titulo">Fale conosco</p>
+                <div class="formulario__container">
+                    <label class="formulario__nome">Nome</label>
+                    <input type="text" name="" maxlength="40" required class="formulario__input-nome">
+                </div>
+                <textarea class="formulario__mensagem" maxlength="120" required placeholder="Escreva sua mensagem"></textarea>
+                <button type="submit" class="formulario__botao botao--padrao">Enviar mensagem</button>
+            </form>
+        </section>
+        <div class="rodape__creditos">
+            <p>Desenvolvido por André Zambon<br> 2021</p>
+        </div>
+    </footer>
+	
+
+</body>
+</html>

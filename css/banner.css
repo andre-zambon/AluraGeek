@@ -1,0 +1,67 @@
+
+.banner {
+    background-image: url(../img/Hero.svg);
+    background-repeat: no-repeat;
+    padding:  5em 0 2em 0;
+    background-size: 100%;
+    background-position: center
+}
+
+.banner__titulo {
+    color: var(--cor-texto-branco);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    width: 95%
+    
+}
+
+.banner__subtitulo {
+    color: var(--cor-texto-branco);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0.5em 0;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1em;
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .banner {
+        padding: 12em 0 2em 0;
+
+    }
+
+    .banner__container {
+        margin: 0 4em;
+    }
+    
+    .banner__titulo {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    
+    .banner__subtitulo {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+   
+    .banner {
+        background-position-y:  -10em;
+        padding-bottom: 2em;
+    }
+    .banner__container {
+        margin: 0 10em;
+    }
+}

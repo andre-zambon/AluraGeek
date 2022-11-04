@@ -1,0 +1,140 @@
+.container__rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-rodape-azul);
+    padding: 1em 0;
+}
+
+
+.rodape__lista {
+    list-style: none;
+    text-align: center;
+
+}
+
+.rodape__lista-item {
+    margin: 1em 0;
+
+}
+
+.formulario__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-start;
+    margin-bottom: 1em
+}
+
+
+
+.container__logo-links {
+    text-align: center;
+}
+
+.rodape__logo {
+    width: 50%;
+}
+
+.rodape__formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    align-items: flex-start;
+
+}
+
+.formulario__container {
+    background-color: var(--cor-texto-branco);
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border-bottom: 1px solid var(--cor-texto-label);
+    width: 100%;
+
+}
+
+.formulario__nome {
+    padding: 0.5em;
+    color: var(--cor-texto-label);
+}
+
+.formulario__input-nome {
+    padding: 0.5em;
+}
+
+.formulario__botao {
+    margin: 0.5em 0;
+}
+
+.formulario__mensagem {
+    width: 100%;
+    padding: 1em 0 3em 0;
+    border-bottom: 1px solid var(--cor-texto-label);
+    border-radius: 6px;
+    resize: none;
+}
+
+.formulario__mensagem::placeholder {
+    padding-left: 0.5em;
+}
+
+.rodape__creditos {
+    text-align: center;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 2em 0;
+
+}
+
+.link-rodape {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px){
+    
+    .container__rodape {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em 4em;
+    }
+    
+    .rodape__logo {
+        width: 100%;
+    }
+    
+    .rodape__lista {
+        text-align: start;
+    }
+    
+    .rodape__lista-item {
+        margin: 2em 0;
+    }
+    
+    .formulario__input-nome {
+        padding: 0 5em
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px){
+
+    .container__rodape {
+       padding: 2em 9em;
+    }
+
+    .rodape__logo {
+        width: 200%;
+    }
+
+    .container__logo-links {
+        display: flex;
+        align-items: top;
+    }
+
+    .rodape__lista-item {
+        margin: 0 0 2em 15em;
+    }
+
+}
