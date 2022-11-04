@@ -29,6 +29,14 @@
     .cabecalho {
         padding: 1em 4em;
     }
+
+    .link-home {
+        width: 20%;
+    }
+
+    .cabecalho__logo {
+        width: 100%;
+    }
     
     .busca__container {
         background-color: var(--cor-background-cinza);
@@ -64,6 +72,20 @@
 
     .cabecalho {
         padding: 1em 10em;
+    }
+
+    .cabecalho__logo {
+        width: 75%;
+    }
+
+    .busca__container {
+        width: 50%;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+
+    .cabecalho__busca {
+       width: 90%;
     }
     
 }

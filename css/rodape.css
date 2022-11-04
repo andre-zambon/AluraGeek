@@ -17,7 +17,7 @@
 
 }
 
-.formulario__titulo {
+.formulario__titulo-rodape {
     font-size: 16px;
     font-weight: 700;
     align-self: flex-start;
@@ -112,7 +112,7 @@
     }
     
     .formulario__input-nome {
-        padding: 0 5em
+        padding-right: 5em;
     }
 
     
@@ -135,6 +135,10 @@
 
     .rodape__lista-item {
         margin: 0 0 2em 15em;
+    }
+
+    .formulario__input-nome {
+        padding-right: 20em;
     }
 
 }
