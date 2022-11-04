@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em 1em;
-    
 }
 
 .cabecalho__botao-login {
@@ -43,15 +42,12 @@
         padding: 0.5em;
         border-radius: 50px;
         display: flex;
-        
-                
     }
     
     .cabecalho__busca {
         background-color: transparent;
         padding-right: 3em;
         display: block;
-            
     }
     
     .busca__botao {
@@ -59,8 +55,6 @@
         background-repeat: no-repeat;
         padding: 1em;
         background-position: center;
-            
-            
     }
     
     .cabecalho__botao-buscar {
