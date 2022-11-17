@@ -5,9 +5,9 @@
 }
 
 .container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 2em 0
 }
 
@@ -23,9 +23,9 @@
 }
 
 .lista__ver-todos {
+    color: var(--cor-font-azul);
     font-size: 14px;
     font-weight: 700;
-    color: var(--cor-font-azul)
 }
 
 

@@ -8,22 +8,22 @@
 @import url(produto.css);
 
 :root {
-    --cor-botao-azul: #2A7AE4;
-    --cor-texto-label: #A2A2A2;
-    --cor-texto-botao: #FFFFFF;
-    --cor-font-azul: #2A7AE4;
-    --cor-font-preto: #464646;
-    --cor-texto-branco: #FFFFFF;
-    --cor-rodape-azul: #c6daf5;
-    --cor-titulo-lista-produto: #464646;
     --font-principal: 'Raleway';
     --cor-background-cinza: #f2f2f2;
+    --cor-botao-azul: #2A7AE4;
+    --cor-font-azul: #2A7AE4;
+    --cor-font-preto: #464646;
+    --cor-rodape-azul: #c6daf5;
+    --cor-texto-label: #A2A2A2;
+    --cor-texto-botao: #FFFFFF;
+    --cor-texto-branco: #FFFFFF;
+    --cor-titulo-lista-produto: #464646;
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400px;
-    font-family: 'Raleway', sans-serif;
 }
 
 

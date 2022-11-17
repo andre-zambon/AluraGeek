@@ -2,9 +2,9 @@
 .banner {
     background-image: url(../img/Hero.svg);
     background-repeat: no-repeat;
-    padding:  5em 0 2em 0;
+    background-position: center;
     background-size: 100%;
-    background-position: center
+    padding:  5em 0 2em 0;
 }
 
 .banner__titulo {

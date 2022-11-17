@@ -1,15 +1,15 @@
 .cabecalho {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1em 1em;
 }
 
 .cabecalho__botao-login {
     border: 1px solid var(--cor-botao-azul);
-    padding: 1em 3em;
     color: var(--cor-botao-azul);
     font-weight: 600;
+    padding: 1em 3em;
 }
 
 .cabecalho__busca {
@@ -39,22 +39,22 @@
     
     .busca__container {
         background-color: var(--cor-background-cinza);
-        padding: 0.5em;
         border-radius: 50px;
         display: flex;
+        padding: 0.5em;
     }
     
     .cabecalho__busca {
         background-color: transparent;
-        padding-right: 3em;
         display: block;
+        padding-right: 3em;
     }
     
     .busca__botao {
         background-image: url(../img/Icone.svg);
         background-repeat: no-repeat;
-        padding: 1em;
         background-position: center;
+        padding: 1em;
     }
     
     .cabecalho__botao-buscar {
@@ -73,9 +73,9 @@
     }
 
     .busca__container {
-        width: 50%;
         justify-content: space-between;
         padding: 0 1em;
+        width: 50%;
     }
 
     .cabecalho__busca {

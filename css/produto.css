@@ -37,13 +37,13 @@ main {
 @media screen and (min-width: 768px) {
 
     .produto__container {
+        align-items: initial;
         display: flex;
         padding: 0 4em;
-        align-items: initial;
     }
     
     .produto__foto-grande{
-    width: 50%
+        width: 50%
 }
 
     .produto__preco--margin {
@@ -79,8 +79,8 @@ main {
     }
 
     .produtos__lista {
-        display: grid;
         grid-template-columns: repeat(6, auto);
+        display: grid;
     }
 }
 

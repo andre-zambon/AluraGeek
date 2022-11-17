@@ -1,7 +1,7 @@
 .container__rodape {
+    background-color: var(--cor-rodape-azul);
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-rodape-azul);
     padding: 1em 0;
 }
 
@@ -15,9 +15,9 @@
 }
 
 .formulario__titulo-rodape {
+    align-self: flex-start;
     font-size: 16px;
     font-weight: 700;
-    align-self: flex-start;
     margin-bottom: 1em
 }
 
@@ -30,26 +30,26 @@
 }
 
 .rodape__formulario {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     padding: 1em 1em;
-    align-items: flex-start;
 }
 
 .formulario__container {
     background-color: var(--cor-texto-branco);
-    margin-bottom: 1em;
-    padding-bottom: 0.5em;
+    border-bottom: 1px solid var(--cor-texto-label);
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
-    border-bottom: 1px solid var(--cor-texto-label);
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
     width: 100%;
 }
 
 .formulario__nome {
-    padding: 0.5em;
     color: var(--cor-texto-label);
+    padding: 0.5em;
 }
 
 .formulario__input-nome {
@@ -61,11 +61,11 @@
 }
 
 .formulario__mensagem {
-    width: 100%;
-    padding: 1em 0 3em 0;
     border-bottom: 1px solid var(--cor-texto-label);
     border-radius: 6px;
+    padding: 1em 0 3em 0;
     resize: none;
+    width: 100%;
 }
 
 .formulario__mensagem::placeholder {
@@ -73,10 +73,10 @@
 }
 
 .rodape__creditos {
-    text-align: center;
     font-weight: 500;
     line-height: 19px;
     padding: 2em 0;
+    text-align: center;
 }
 
 .link-rodape {
@@ -121,8 +121,8 @@
     }
 
     .container__logo-links {
-        display: flex;
         align-items: top;
+        display: flex;
     }
 
     .rodape__lista-item {

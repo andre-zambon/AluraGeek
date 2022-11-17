@@ -20,9 +20,9 @@
 }
 
 .produtos__titulo-cadastro {
+    color: var(--cor-titulo-lista-produto);
     font-weight: 700;
     font-size: 22px;
-    color: var(--cor-titulo-lista-produto);
 }
 
 .produtos__botao-adicionar {
@@ -49,8 +49,8 @@
     }
 
     .produtos__container-titulo {
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
         justify-content: space-between
     }
 
