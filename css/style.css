@@ -3,7 +3,7 @@
 /* @import url(banner.css); */
 @import url(index.css);
 @import url(login.css);
-@import url(produtos.css);
+/* @import url(produtos.css); */
 @import url(cadastro-produto.css);
 @import url(produto.css);
 
@@ -20,6 +20,17 @@
 @import url(index/banner/banner-container.css);
 @import url(index/banner/banner-subtitulo.css);
 @import url(index/banner/banner-titulo.css);
+
+@import url(index/produtos/container.css);
+@import url(index/produtos/produtos-container.css);
+@import url(index/produtos/listaProdutos/lista-titulo.css);
+@import url(index/produtos/listaProdutos/lista-verTodos.css);
+@import url(index/produtos/listaProdutos/produtos-lista.css);
+@import url(index/produtos/produto/produto-foto.css);
+@import url(index/produtos/produto/produto-link.css);
+@import url(index/produtos/produto/produto-nome.css);
+@import url(index/produtos/produto/produto-preco.css);
+@import url(index/produtos/produto/produto.css);
 
 
 
@@ -49,3 +60,20 @@ body {
     padding: 1em;
    
 }
+
+.produtos__container--cinza {
+    background-color: var(--cor-background-cinza);
+    padding: 2em 2em
+}
+
+.produto--desktop {
+    display: none;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .produto--desktop {
+            display: block;
+        }
+    
+    }
