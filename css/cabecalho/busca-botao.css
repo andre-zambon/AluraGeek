@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .busca__botao {
-            background-image: url(../img/Icone.svg);
+            background-image: url(../../img/Icone.svg);
             background-repeat: no-repeat;
             background-position: center;
             padding: 1em;
