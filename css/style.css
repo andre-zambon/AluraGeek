@@ -15,11 +15,11 @@
 @import url(cabecalho/cabecalho-logo.css);
 @import url(cabecalho/cabecalho.css);
 
-@import url(index/banner.css);
-@import url(index/banner-botao.css);
-@import url(index/banner-container.css);
-@import url(index/banner-subtitulo.css);
-@import url(index/banner-titulo.css);
+@import url(index/banner/banner.css);
+@import url(index/banner/banner-botao.css);
+@import url(index/banner/banner-container.css);
+@import url(index/banner/banner-subtitulo.css);
+@import url(index/banner/banner-titulo.css);
 
 
 
