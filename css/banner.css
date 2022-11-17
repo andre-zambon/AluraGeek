@@ -6,13 +6,20 @@
     background-size: 100%;
     padding:  5em 0 2em 0;
 }
+ 
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1em;
+}
 
 .banner__titulo {
     color: var(--cor-texto-branco);
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-    width: 95%
+    width: 95%;
     
 }
 
@@ -24,13 +31,6 @@
     margin: 0.5em 0;
 }
 
-.banner__container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 1em;
-    
-}
 
 @media screen and (min-width: 768px) {
     
@@ -60,6 +60,7 @@
         background-position-y:  -10em;
         padding-bottom: 2em;
     }
+    
     .banner__container {
         margin: 0 10em;
     }
