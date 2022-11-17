@@ -14,5 +14,11 @@
     .cabecalho__busca {
             width: 90%;
        }
+
+    .busca__container {
+            justify-content: space-between;
+            padding: 0 1em;
+            width: 50%;
+        }
     
     }
