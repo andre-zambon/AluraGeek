@@ -9,3 +9,10 @@
            padding-right: 3em;
        }
     }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__busca {
+            width: 90%;
+       }
+    
+    }
