@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1em 1em;
-}
+} 
 
 .cabecalho__botao-login {
     border: 1px solid var(--cor-botao-azul);

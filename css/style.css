@@ -1,4 +1,4 @@
-@import url(cabecalho.css);
+/* @import url(cabecalho.css); */
 @import url(rodape.css);
 @import url(banner.css);
 @import url(index.css);
@@ -6,6 +6,14 @@
 @import url(produtos.css);
 @import url(cadastro-produto.css);
 @import url(produto.css);
+
+@import url(cabecalho/busca-botao.css);
+@import url(cabecalho/buscaContainer.css);
+@import url(cabecalho/cabecalho-botao-buscar.css);
+@import url(cabecalho/cabecalho-botao-login.css);
+@import url(cabecalho/cabecalho-busca.css);
+@import url(cabecalho/cabecalho-logo.css);
+@import url(cabecalho/cabecalho.css);
 
 :root {
     --font-principal: 'Raleway';
