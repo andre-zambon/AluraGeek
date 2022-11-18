@@ -1,4 +1,4 @@
-.container__rodape {
+.container__rodape { 
     background-color: var(--cor-rodape-azul);
     display: flex;
     flex-direction: column;

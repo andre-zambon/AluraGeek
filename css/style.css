@@ -1,5 +1,5 @@
 /* @import url(cabecalho.css); */
-@import url(rodape.css);
+/* @import url(rodape.css); */
 /* @import url(banner.css); */
 @import url(index.css);
 @import url(login.css);
@@ -31,6 +31,24 @@
 @import url(index/produtos/produto/produto-nome.css);
 @import url(index/produtos/produto/produto-preco.css);
 @import url(index/produtos/produto/produto.css);
+
+@import url(rodape/container-rodape.css);
+@import url(rodape/rodape-creditos.css);
+@import url(rodape/logo-links/container-Logolinks.css);
+@import url(rodape/logo-links/link-rodape.css);
+@import url(rodape/logo-links/linkLogo.css);
+@import url(rodape/logo-links/lista-item.css);
+@import url(rodape/logo-links/logo.css);
+@import url(rodape/logo-links/rodape-lista.css);
+@import url(rodape/rodapeFormulario/formulario-botao.css);
+@import url(rodape/rodapeFormulario/formulario-container.css);
+@import url(rodape/rodapeFormulario/formulario-inputNome.css);
+@import url(rodape/rodapeFormulario/formulario-mensagem.css);
+@import url(rodape/rodapeFormulario/formulario-mensagem.css);
+@import url(rodape/rodapeFormulario/formulario-nome.css);
+@import url(rodape/rodapeFormulario/formulario-rodape-titulo.css);
+@import url(rodape/rodapeFormulario/rodape-formulario.css);
+@import url(rodape/rodapeFormulario/rodape-logo.css);
 
 
 
