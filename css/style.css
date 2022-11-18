@@ -1,8 +1,8 @@
 /* @import url(cabecalho.css); */
 /* @import url(rodape.css); */
 /* @import url(banner.css); */
-@import url(index.css);
-@import url(login.css);
+/* @import url(index.css); */
+/* @import url(login.css); */
 /* @import url(produtos.css); */
 @import url(cadastro-produto.css);
 @import url(produto.css);
@@ -49,6 +49,16 @@
 @import url(rodape/rodapeFormulario/formulario-rodape-titulo.css);
 @import url(rodape/rodapeFormulario/rodape-formulario.css);
 @import url(rodape/rodapeFormulario/rodape-logo.css);
+
+@import url(login/login-container.css);
+@import url(login/login-formulario/formulario-titulo.css);
+@import url(login/login-formulario/login-botao.css);
+@import url(login/login-formulario/login-email.css);
+@import url(login/login-formulario/login-formulario.css);
+@import url(login/login-formulario/login-senha.css);
+
+
+
 
 
 
