@@ -4,7 +4,7 @@
 /* @import url(index.css); */
 /* @import url(login.css); */
 /* @import url(produtos.css); */
-@import url(cadastro-produto.css);
+/* @import url(cadastro-produto.css); */
 @import url(produto.css);
 
 @import url(cabecalho/busca-botao.css);
@@ -57,10 +57,12 @@
 @import url(login/login-formulario/login-formulario.css);
 @import url(login/login-formulario/login-senha.css);
 
-
-
-
-
+@import url(cadastro-produto/botao-cadasro.css);
+@import url(cadastro-produto/cabecalho-botaoMenuAdm.css);
+@import url(cadastro-produto/cadastro-container.css);
+@import url(cadastro-produto/cadastro-formulario.css);
+@import url(cadastro-produto/formulario-titulo.css);
+@import url(cadastro-produto/foto-produto.css);
 
 :root {
     --font-principal: 'Raleway';
@@ -96,6 +98,10 @@ body {
 
 .produto--desktop {
     display: none;
+}
+
+.formulario__titulo--tamanho {
+    font-size: 22px;
 }
 
 
