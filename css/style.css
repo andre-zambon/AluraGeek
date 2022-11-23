@@ -3,7 +3,7 @@
 /* @import url(banner.css); */
 /* @import url(index.css); */
 /* @import url(login.css); */
-@import url(produtos.css);
+/* @import url(produtos.css); */
 /* @import url(cadastro-produto.css); */
 @import url(produto.css);
 
@@ -64,6 +64,16 @@
 @import url(cadastro-produto/formulario-titulo.css);
 @import url(cadastro-produto/foto-produto.css);
 
+@import url(produtos/item-imagem.css);
+@import url(produtos/produto.css);
+@import url(produtos/produtos-botaoAdicionar.css);
+@import url(produtos/produtos-container.css);
+@import url(produtos/produtos-containerTitulo.css);
+@import url(produtos/produtos-listaCadastro.css);
+@import url(produtos/produtos-tituloCadastro.css);
+@import url(produtos/produtos.css);
+
+
 :root {
     --font-principal: 'Raleway';
     --cor-background-cinza: #f2f2f2;
@@ -104,10 +114,22 @@ body {
     font-size: 22px;
 }
 
+@media screen and (min-width: 768px) {
+    
+    .produtos__container--cinza {
+        padding: 2em 4em;
+    }
+}
+
 
 @media screen and (min-width: 1440px) {
     .produto--desktop {
             display: block;
         }
-    
+
+    .produtos__container--cinza {
+        padding: 3em 10em;
     }
+}
+    
+    
